@@ -19,7 +19,7 @@ export const ExpenseItem = ({ expense }) => {
                 key: "expenses",
                 id: expense.id
             })
-            toast.success("Expense delete sucessfully")
+            toast.success("Expense deleted.")
         }
         catch (e) {
             throw new Error ("There was a problem deleting this expense. Try again")

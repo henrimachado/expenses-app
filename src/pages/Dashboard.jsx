@@ -33,6 +33,7 @@ export const validUser = {
 //Action
 export async function dashboardAction({ request }) {
 
+  
   const data = await request.formData();
   const { _action, ...values } = Object.fromEntries(data);
 
@@ -78,7 +79,7 @@ export async function dashboardAction({ request }) {
 
 
 const Dashboard = () => {
-
+  
   const {userLogged, expenses} = useLoaderData();
   return (
 
