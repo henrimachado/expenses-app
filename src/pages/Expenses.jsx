@@ -9,7 +9,7 @@ import { validUser } from "./Dashboard"
 import { fetchData } from "../../helpers"
 
 //Lib imports
-import { AdjustmentsHorizontalIcon} from "@heroicons/react/24/solid"
+import { AdjustmentsHorizontalIcon } from "@heroicons/react/24/solid"
 
 
 
@@ -49,7 +49,7 @@ export const Expenses = () => {
             justifyContent: "center",
             alignContent: "center"
           }}>
-          <a href="#" className = "general-btn" onClick={() => alert("Sorry, this function is still under development!") }>
+          <a href="#" className="general-btn" onClick={() => alert("Sorry, this feature is still under development!")}>
             <AdjustmentsHorizontalIcon width={30} />
           </a>
 
@@ -74,7 +74,7 @@ export const Expenses = () => {
           {expenses && expenses.length > 0 &&
             (
               <div className="list--expenses" style={{ alignContent: "start" }}>
-                  <h2 className="h3">Expenses</h2>
+                <h2 className="h3">Expenses</h2>
                 <div className="expenses--listing">
                   <Table expenses={expenses.sort((a, b) => b.createdAt - a.createdAt)} />
                 </div>

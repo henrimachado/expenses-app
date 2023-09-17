@@ -53,7 +53,7 @@ export const ExpenseItem = ({ expense }) => {
 
             {/* Buttons */}
             <div className="actions" style={{ display: "flex", justifyContent: "space-around", gap: "20px" }}>
-                <a href="#" className="general-btn" onClick={() => alert("Sorry, this function is still under development!")} ><PencilSquareIcon width={20} /></a>
+                <a href="#" className="general-btn" onClick={() => alert("Sorry, this feature is still under development!")} ><PencilSquareIcon width={20} /></a>
 
 
 

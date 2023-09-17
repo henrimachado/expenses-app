@@ -48,7 +48,6 @@ export const Intro = () => {
                             padding: "8px 16px",
                             justifyContent: "center",
                             alignItems: "center",
-                            // borderRadius: "0.2rem 0 0 0.2rem",
                         }}>
                             <span><UserIcon width={20} /></span>
                         </div>
@@ -70,7 +69,6 @@ export const Intro = () => {
 
                     <div className="input-login">
                         <div style={{
-                            // backgroundColor: "#3D2645",
                             backgroundImage: "linear-gradient(to top right, #2879FF, #D048FF)",
                             color: "#E8E7EE",
                             display: "flex",
@@ -78,7 +76,6 @@ export const Intro = () => {
                             padding: "8px 16px",
                             justifyContent: "center",
                             alignItems: "center",
-                            // borderRadius: "0.2rem 0 0 0.2rem"
                         }}>
                             <span><LockClosedIcon width={20} /></span>
                         </div>
