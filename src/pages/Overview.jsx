@@ -15,11 +15,12 @@ export const Overview = () => {
         backgroundColor: "var(--off-white)",
         width: "100%",
         height: "100vh",
+        padding: "50px"
       }}
     >
 
       <h1>Uh oh! We've got a problem.</h1>
-      <p>This page is still under construction. We're working on making this better for you.</p>
+      <p>This page is still under construction. We're working hard to finish it as soon as possible.</p>
 
 
       <div className="grid-xs" style={{

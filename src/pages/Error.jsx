@@ -16,7 +16,7 @@ export const Error = () => {
             style={{
                 backgroundColor: "var(--off-white)",
                 height: "100vh", 
-                padding: "2rem"
+                padding: "50px"
             }}
         >
             <h1 >Uh oh! We've got a problem.</h1>

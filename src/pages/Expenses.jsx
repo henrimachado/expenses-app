@@ -40,7 +40,7 @@ export const Expenses = () => {
             justifyContent: "center",
             alignContent: "center"
           }}>
-          <a href="#" className = "general-btn" onClick={() => alert("Sorry, this function is not working right now!") }>
+          <a href="#" className = "general-btn" onClick={() => alert("Sorry, this function is still under development!") }>
             <AdjustmentsHorizontalIcon width={30} />
           </a>
 
