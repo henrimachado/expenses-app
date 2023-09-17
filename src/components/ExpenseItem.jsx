@@ -13,18 +13,18 @@ import { deleteItem, formatCurrency, formatDateToLocaleString } from "../../help
 
 export const ExpenseItem = ({ expense }) => {
 
-     function deleteExpense () {
+    function deleteExpense() {
         try {
-            deleteItem ({
+            deleteItem({
                 key: "expenses",
                 id: expense.id
             })
             toast.success("Expense deleted.")
         }
         catch (e) {
-            throw new Error ("There was a problem deleting this expense. Try again")
+            throw new Error("There was a problem deleting this expense. Try again")
         }
-    
+
     }
 
     return (
@@ -52,18 +52,18 @@ export const ExpenseItem = ({ expense }) => {
 
 
             {/* Buttons */}
-            <div className="actions" style={{display: "flex", justifyContent: "space-around", gap: "20px"}}>
-                <a href="#" className="general-btn"  onClick={() => alert("Sorry, this function is still under development!") } ><PencilSquareIcon width={20}/></a>
-                
-                
-        
+            <div className="actions" style={{ display: "flex", justifyContent: "space-around", gap: "20px" }}>
+                <a href="#" className="general-btn" onClick={() => alert("Sorry, this function is still under development!")} ><PencilSquareIcon width={20} /></a>
+
+
+
                 <a href="#" className="delete-btn" onClick={(event) => {
-                    if(!confirm("Are you sure you want to delete this expense?")){
+                    if (!confirm("Are you sure you want to delete this expense?")) {
                         event.preventDefault()
-                    } 
+                    }
                     else {
                         deleteExpense()
-                       
+
                     }
                 }} ><TrashIcon width={20} /></a>
             </div>
@@ -74,6 +74,3 @@ export const ExpenseItem = ({ expense }) => {
     )
 }
 
-//No click do edit, jogar os dados da expanse em outro lugar
-//jogar pro autocomplete = valor no form
-// se tiver valor diferente, deleta a antiga e adiciona a nova se for igual, não faz nada
