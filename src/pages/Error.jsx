@@ -51,7 +51,6 @@ export const Error = () => {
                 }}
                 onClick={() => navigate(-1)}>
                      <ArrowUturnLeftIcon width={20}/>
-                     {/* <span>Go back</span> */}
                 </button>
 
                 <Link className="btn"
@@ -67,7 +66,6 @@ export const Error = () => {
                     }}
                     to="/"> 
                         <HomeIcon width={20}/>
-                        {/* <span>Go home</span> */}
                     </Link>
             </div>
             

@@ -1,4 +1,3 @@
-
 //React Router Dom imports
 import {useLoaderData } from "react-router-dom";
 
@@ -7,9 +6,11 @@ import { toast } from "react-toastify";
 
 //Components 
 import { Intro } from "../components/Intro";
-import { createExpense, fetchData } from "../../helpers";
 import { Nav } from "../components/Nav";
 import { Expenses } from "./Expenses";
+
+//Helpers
+import { createExpense, fetchData } from "../../helpers";
 
 
 
@@ -24,7 +25,7 @@ export function dashboardLoader() {
 }
 
 export const validUser = {
-  userName: "Henrique",
+  userName: "UserName",
   userEmail: "valid@gmail.com",
   userPassword: "1234"
 }
@@ -35,14 +36,9 @@ export async function dashboardAction({ request }) {
   const data = await request.formData();
   const { _action, ...values } = Object.fromEntries(data);
 
-  //newUser submission
   if (_action === "userLogin") {
     try {
-      // localStorage.setItem("userEmail", JSON.stringify(values.userEmail))
-      // localStorage.setItem("userPassword", JSON.stringify(values.userPassword))
-
-
-      if (JSON.stringify(values.userEmail) == JSON.stringify(validUser.userEmail)
+         if (JSON.stringify(values.userEmail) == JSON.stringify(validUser.userEmail)
         && JSON.stringify(values.userPassword) == JSON.stringify(validUser.userPassword)) {
         localStorage.setItem("userLogged", JSON.stringify("true"))
         return toast.success(`Welcome, ${validUser.userName}`)

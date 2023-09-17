@@ -1,9 +1,17 @@
-import { AdjustmentsHorizontalIcon} from "@heroicons/react/24/solid"
-import { validUser } from "./Dashboard"
-
-import { fetchData } from "../../helpers"
+//Components
 import { Table } from "../components/Table"
 import AddExpenseForm from "../components/AddExpenseForm"
+
+//User
+import { validUser } from "./Dashboard"
+
+//Helpers
+import { fetchData } from "../../helpers"
+
+//Lib imports
+import { AdjustmentsHorizontalIcon} from "@heroicons/react/24/solid"
+
+
 
 
 
