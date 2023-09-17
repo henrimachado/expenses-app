@@ -39,7 +39,7 @@ export const Expenses = () => {
 
         <div>
           <h2 className="h3"><strong>My expenses</strong></h2>
-          <p><small>Hi, {validUser.userName}! Good morning. </small></p>
+          <p><small>Hi, {validUser.userName}!  </small></p>
         </div>
 
         <div
