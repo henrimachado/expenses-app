@@ -56,7 +56,6 @@ export const Expenses = () => {
         </div>
       </header>
 
-
       <div className="grid-lg grid--cards" style={{
         gridTemplateColumns: "0.3fr 0.7fr",
         height: "100%",
