@@ -3,6 +3,13 @@
 ## O desafio
 <p>Este projeto tem como objetivo a construção de um aplicativo para web voltado para a gestão de gastos do usuário. Assim, é possível que o usuário insira gastos informando o nome, o valor, a data e a categoria a qual o gasto pertence e depois visualizando a lista completa de gastos cadastrados. </p>
 
+<br>
+<p align = "center">
+<img src= ".\public\expense-app-gif.gif">
+<br>
+Aplicativo em execução.
+</p>
+
 
 ## Passos futuros
 <p>Como um projeto ainda em desenvolvimento, o aplicativo conta com algumas funcionalidades que ainda não estão implementadas e que serão desenvolvidas ao longo do tempo, na medida em que novos conhecimentos sobre as ferramentas sejam adquiridos. Assim, espera-se que sejam inseridas as funcionalidades: </p>
