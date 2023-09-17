@@ -1,6 +1,6 @@
 
 //React Router Dom imports
-import { Link, Outlet, useLoaderData } from "react-router-dom";
+import {useLoaderData } from "react-router-dom";
 
 //Lib imports
 import { toast } from "react-toastify";

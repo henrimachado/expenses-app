@@ -1,9 +1,8 @@
 //RRD imports
-import { ArrowLeftOnRectangleIcon, BoltIcon, ChartBarIcon, ChartBarSquareIcon, ChartPieIcon, CurrencyDollarIcon, UserCircleIcon, UserIcon } from "@heroicons/react/24/solid"
+import { ArrowLeftOnRectangleIcon, BoltIcon,  ChartPieIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid"
 import { Form, NavLink } from "react-router-dom"
 
 //assets
-import backgroundImg from "../assets/background-intro.svg"
 import anotherbg from "../assets/anotherbg.svg"
 
 export const Nav = ({ userLogged, userName }) => {

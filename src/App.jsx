@@ -1,4 +1,3 @@
-
 import {
   createBrowserRouter,
   RouterProvider,
@@ -7,7 +6,6 @@ import {
 //Page imports
 import Dashboard, { dashboardAction, dashboardLoader } from "./pages/Dashboard";
 import { Error } from "./pages/Error";
-import { Expenses } from "./pages/Expenses";
 import { Overview } from "./pages/Overview";
 
 //Lib imports

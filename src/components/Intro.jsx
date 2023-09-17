@@ -1,12 +1,11 @@
 import { Form, useLoaderData } from "react-router-dom"
 
 //assets
-import backgroundImg from "../assets/background-intro.svg"
 import anotherbg from "../assets/anotherbg.svg"
 
 //lib imports
-import { LockClosedIcon, LockOpenIcon, UserIcon } from "@heroicons/react/24/solid"
-import { fetchData } from "../../helpers";
+import { LockClosedIcon, UserIcon } from "@heroicons/react/24/solid"
+
 
 
 

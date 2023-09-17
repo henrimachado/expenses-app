@@ -1,6 +1,6 @@
 import { Form } from "react-router-dom"
 import { PlusIcon } from "@heroicons/react/24/solid"
-export const AddExpenseForm = () => {
+const AddExpenseForm = () => {
     return (
         <div className="wrapper">
             <h2 className="h3">Add expense</h2>
@@ -85,3 +85,5 @@ export const AddExpenseForm = () => {
         </div>
     )
 }
+
+export default AddExpenseForm
