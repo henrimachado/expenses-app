@@ -40,7 +40,8 @@ const AddExpenseForm = () => {
                         id="newExpenseAmount"
                         required
                         placeholder="e.g., R$2,50"
-                        inputMode="decimal" />
+                        inputMode="decimal"
+                        min="0.0" />
                 </div>
 
                 <div className="grid-xs">
