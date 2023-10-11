@@ -41,19 +41,6 @@ export const Expenses = () => {
           <h2 className="h3"><strong>My expenses</strong></h2>
           <p><small>Hi, {validUser.userName}!  </small></p>
         </div>
-
-        <div
-          className="filter--icon"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignContent: "center"
-          }}>
-          <a href="#" className="general-btn" onClick={() => alert("Sorry, this feature is still under development!")}>
-            <AdjustmentsHorizontalIcon width={30} />
-          </a>
-
-        </div>
       </header>
 
       <div className="grid-lg grid--cards" style={{
